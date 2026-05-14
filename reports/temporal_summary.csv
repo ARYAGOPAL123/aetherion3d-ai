@@ -1,0 +1,6 @@
+frame_id,instantaneous_blocked,latched_blocked,hazard_streak,clear_streak,active_hazards,max_risk_score,reason
+timeline_001_clear,False,False,0,1,[],0.58,clear state confirmed
+timeline_002_hazard_entering,True,False,1,0,['Box_A'],0.741,hazard observed but debounce threshold not reached
+timeline_003_hazard_confirmed,True,True,2,0,['Box_A'],0.759,blocked state latched after stable hazard evidence
+timeline_004_clearing,False,True,0,1,[],0.51,blocked state held until clear evidence is stable
+timeline_005_clear_released,False,False,0,2,[],0.57,clear state confirmed

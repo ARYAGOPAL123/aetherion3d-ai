@@ -1,0 +1,12 @@
+Depth-Guard Frame Analysis
+Frame: warehouse_frame_001
+
+Object   Label            Depth       Volume Zone     Risk Status   Reason
+Obj_101  Cardboard Box    0.80m      327.9 cm3 Zone A   0.75 HAZARD   object is inside the 1.00m critical distance
+Obj_102  Human            2.50m    18153.8 cm3 Zone B   0.54 SAFE     object is outside the critical distance
+Obj_103  Pallet           1.20m      144.8 cm3 Zone A   0.34 SAFE     object is outside the critical distance
+Obj_104  Small Tool       0.50m        0.1 cm3 Zone A   0.00 IGNORE   estimated volume is below the 20.0 cm3 minimum
+
+Scene Summary: 1 hazard(s), 2 safe object(s), 1 ignored object(s), max risk 0.75
+Final Decision: Loading Zone Blocked
+Alert: Loading zone blocked by Obj_101 (Cardboard Box).

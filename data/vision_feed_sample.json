@@ -1,0 +1,31 @@
+{
+  "frame_id": "warehouse_frame_001",
+  "timestamp": "2026-05-12T10:00:00Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Obj_101",
+      "label": "Cardboard Box",
+      "bbox_xywh": [100, 200, 50, 50],
+      "avg_depth_m": 0.8
+    },
+    {
+      "object_id": "Obj_102",
+      "label": "Human",
+      "bbox_xywh": [400, 150, 60, 180],
+      "avg_depth_m": 2.5
+    },
+    {
+      "object_id": "Obj_103",
+      "label": "Pallet",
+      "bbox_xywh": [600, 500, 100, 30],
+      "avg_depth_m": 1.2
+    },
+    {
+      "object_id": "Obj_104",
+      "label": "Small Tool",
+      "bbox_xywh": [250, 300, 10, 10],
+      "avg_depth_m": 0.5
+    }
+  ]
+}

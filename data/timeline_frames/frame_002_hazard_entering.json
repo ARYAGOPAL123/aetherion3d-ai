@@ -1,0 +1,19 @@
+{
+  "frame_id": "timeline_002_hazard_entering",
+  "timestamp": "2026-05-12T10:20:02Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Box_A",
+      "label": "Cardboard Box",
+      "bbox_xywh": [150, 215, 70, 66],
+      "avg_depth_m": 0.92
+    },
+    {
+      "object_id": "Worker_A",
+      "label": "Human",
+      "bbox_xywh": [430, 150, 56, 172],
+      "avg_depth_m": 2.7
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "frame_id": "scenario_crowded_zone",
+  "timestamp": "2026-05-12T10:10:00Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Obj_301",
+      "label": "Cardboard Box",
+      "bbox_xywh": [90, 210, 160, 120],
+      "avg_depth_m": 1.15
+    },
+    {
+      "object_id": "Obj_302",
+      "label": "Cardboard Box",
+      "bbox_xywh": [300, 220, 145, 130],
+      "avg_depth_m": 1.35
+    },
+    {
+      "object_id": "Obj_303",
+      "label": "Pallet",
+      "bbox_xywh": [510, 435, 190, 64],
+      "avg_depth_m": 1.55
+    },
+    {
+      "object_id": "Obj_304",
+      "label": "Small Tool",
+      "bbox_xywh": [250, 340, 12, 12],
+      "avg_depth_m": 0.55
+    }
+  ]
+}

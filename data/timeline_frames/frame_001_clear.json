@@ -1,0 +1,19 @@
+{
+  "frame_id": "timeline_001_clear",
+  "timestamp": "2026-05-12T10:20:01Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Box_A",
+      "label": "Cardboard Box",
+      "bbox_xywh": [160, 220, 62, 58],
+      "avg_depth_m": 1.45
+    },
+    {
+      "object_id": "Tool_A",
+      "label": "Small Tool",
+      "bbox_xywh": [310, 320, 10, 10],
+      "avg_depth_m": 0.55
+    }
+  ]
+}

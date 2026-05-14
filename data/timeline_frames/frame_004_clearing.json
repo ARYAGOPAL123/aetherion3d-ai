@@ -1,0 +1,19 @@
+{
+  "frame_id": "timeline_004_clearing",
+  "timestamp": "2026-05-12T10:20:04Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Box_A",
+      "label": "Cardboard Box",
+      "bbox_xywh": [142, 214, 62, 58],
+      "avg_depth_m": 1.25
+    },
+    {
+      "object_id": "Pallet_A",
+      "label": "Pallet",
+      "bbox_xywh": [560, 470, 120, 38],
+      "avg_depth_m": 1.35
+    }
+  ]
+}

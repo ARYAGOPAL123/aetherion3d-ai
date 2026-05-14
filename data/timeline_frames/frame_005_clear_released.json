@@ -1,0 +1,19 @@
+{
+  "frame_id": "timeline_005_clear_released",
+  "timestamp": "2026-05-12T10:20:05Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Box_A",
+      "label": "Cardboard Box",
+      "bbox_xywh": [132, 218, 50, 52],
+      "avg_depth_m": 1.8
+    },
+    {
+      "object_id": "Worker_A",
+      "label": "Human",
+      "bbox_xywh": [430, 150, 56, 172],
+      "avg_depth_m": 2.8
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "frame_id": "warehouse_frame_001",
+  "expected_frame_id": "warehouse_frame_001",
+  "actual_final_decision": "BLOCKED",
+  "expected_final_decision": "BLOCKED",
+  "final_decision_match": true,
+  "status_accuracy": 1.0,
+  "zone_accuracy": 1.0,
+  "total_score_percent": 100.0,
+  "passed": true,
+  "object_results": [
+    {
+      "object_id": "Obj_101",
+      "found": true,
+      "status_match": true,
+      "zone_match": true,
+      "expected_status": "HAZARD",
+      "actual_status": "HAZARD",
+      "expected_zone": "Zone A",
+      "actual_zone": "Zone A",
+      "depth_m": 0.8,
+      "volume_cm3": 327.86
+    },
+    {
+      "object_id": "Obj_102",
+      "found": true,
+      "status_match": true,
+      "zone_match": true,
+      "expected_status": "SAFE",
+      "actual_status": "SAFE",
+      "expected_zone": "Zone B",
+      "actual_zone": "Zone B",
+      "depth_m": 2.5,
+      "volume_cm3": 18153.78
+    },
+    {
+      "object_id": "Obj_103",
+      "found": true,
+      "status_match": true,
+      "zone_match": true,
+      "expected_status": "SAFE",
+      "actual_status": "SAFE",
+      "expected_zone": "Zone A",
+      "actual_zone": "Zone A",
+      "depth_m": 1.2,
+      "volume_cm3": 144.83
+    },
+    {
+      "object_id": "Obj_104",
+      "found": true,
+      "status_match": true,
+      "zone_match": true,
+      "expected_status": "IGNORE",
+      "actual_status": "IGNORE",
+      "expected_zone": "Zone A",
+      "actual_zone": "Zone A",
+      "depth_m": 0.5,
+      "volume_cm3": 0.1
+    }
+  ]
+}

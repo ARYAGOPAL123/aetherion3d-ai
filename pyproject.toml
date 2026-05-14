@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depth-guard"
+version = "1.0.0"
+description = "3D spatial occupancy monitor for AI/depth perception challenge"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.23",
+    "matplotlib>=3.7"
+]
+
+[project.optional-dependencies]
+vision = [
+    "opencv-python>=4.8",
+    "ultralytics>=8.0"
+]
+
+[project.scripts]
+depth-guard = "depth_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

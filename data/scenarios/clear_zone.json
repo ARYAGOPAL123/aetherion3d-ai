@@ -1,0 +1,25 @@
+{
+  "frame_id": "scenario_clear_zone",
+  "timestamp": "2026-05-12T10:05:00Z",
+  "image_size": [800, 600],
+  "objects": [
+    {
+      "object_id": "Obj_201",
+      "label": "Cardboard Box",
+      "bbox_xywh": [120, 260, 38, 42],
+      "avg_depth_m": 2.8
+    },
+    {
+      "object_id": "Obj_202",
+      "label": "Human",
+      "bbox_xywh": [440, 150, 54, 170],
+      "avg_depth_m": 3.4
+    },
+    {
+      "object_id": "Obj_203",
+      "label": "Small Tool",
+      "bbox_xywh": [300, 315, 10, 9],
+      "avg_depth_m": 0.7
+    }
+  ]
+}

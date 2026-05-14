@@ -1,0 +1,4 @@
+frame_id,decision,objects,hazards,safe,ignored,max_risk,zone_a_volume_cm3,alerts
+scenario_blocked_multi_object,BLOCKED,3,2,1,0,0.767,1098.09,"Loading zone blocked by Obj_401 (Cardboard Box), Obj_402 (Pallet)."
+scenario_clear_zone,CLEAR,3,0,2,1,0.487,0,No blocking or crowding alert triggered.
+scenario_crowded_zone,CLEAR,4,0,3,1,0.789,52019.1,Crowding warning: Zone A occupied volume 52019.1 cm3 exceeds 5000.0 cm3.

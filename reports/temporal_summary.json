@@ -1,0 +1,56 @@
+[
+  {
+    "frame_id": "timeline_001_clear",
+    "instantaneous_blocked": false,
+    "latched_blocked": false,
+    "hazard_streak": 0,
+    "clear_streak": 1,
+    "active_hazards": [],
+    "max_risk_score": 0.58,
+    "reason": "clear state confirmed"
+  },
+  {
+    "frame_id": "timeline_002_hazard_entering",
+    "instantaneous_blocked": true,
+    "latched_blocked": false,
+    "hazard_streak": 1,
+    "clear_streak": 0,
+    "active_hazards": [
+      "Box_A"
+    ],
+    "max_risk_score": 0.741,
+    "reason": "hazard observed but debounce threshold not reached"
+  },
+  {
+    "frame_id": "timeline_003_hazard_confirmed",
+    "instantaneous_blocked": true,
+    "latched_blocked": true,
+    "hazard_streak": 2,
+    "clear_streak": 0,
+    "active_hazards": [
+      "Box_A"
+    ],
+    "max_risk_score": 0.759,
+    "reason": "blocked state latched after stable hazard evidence"
+  },
+  {
+    "frame_id": "timeline_004_clearing",
+    "instantaneous_blocked": false,
+    "latched_blocked": true,
+    "hazard_streak": 0,
+    "clear_streak": 1,
+    "active_hazards": [],
+    "max_risk_score": 0.51,
+    "reason": "blocked state held until clear evidence is stable"
+  },
+  {
+    "frame_id": "timeline_005_clear_released",
+    "instantaneous_blocked": false,
+    "latched_blocked": false,
+    "hazard_streak": 0,
+    "clear_streak": 2,
+    "active_hazards": [],
+    "max_risk_score": 0.57,
+    "reason": "clear state confirmed"
+  }
+]

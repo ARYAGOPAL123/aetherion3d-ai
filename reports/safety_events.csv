@@ -1,0 +1,3 @@
+event_id,frame_id,severity,category,message,recommended_action,related_objects
+warehouse_frame_001-critical-blocked,warehouse_frame_001,CRITICAL,ZONE_BLOCKED,Loading zone blocked by Obj_101.,"Stop robot entry, notify operator, and wait for zone-clear confirmation.",['Obj_101']
+warehouse_frame_001-info-ignored-small,warehouse_frame_001,INFO,SMALL_OBJECT_FILTER,Ignored small object(s): Obj_104.,No stop action required; keep threshold calibrated for site policy.,['Obj_104']

@@ -1,0 +1,35 @@
+[
+  {
+    "frame_id": "scenario_blocked_multi_object",
+    "decision": "BLOCKED",
+    "objects": 3,
+    "hazards": 2,
+    "safe": 1,
+    "ignored": 0,
+    "max_risk": 0.767,
+    "zone_a_volume_cm3": 1098.09,
+    "alerts": "Loading zone blocked by Obj_401 (Cardboard Box), Obj_402 (Pallet)."
+  },
+  {
+    "frame_id": "scenario_clear_zone",
+    "decision": "CLEAR",
+    "objects": 3,
+    "hazards": 0,
+    "safe": 2,
+    "ignored": 1,
+    "max_risk": 0.487,
+    "zone_a_volume_cm3": 0,
+    "alerts": "No blocking or crowding alert triggered."
+  },
+  {
+    "frame_id": "scenario_crowded_zone",
+    "decision": "CLEAR",
+    "objects": 4,
+    "hazards": 0,
+    "safe": 3,
+    "ignored": 1,
+    "max_risk": 0.789,
+    "zone_a_volume_cm3": 52019.1,
+    "alerts": "Crowding warning: Zone A occupied volume 52019.1 cm3 exceeds 5000.0 cm3."
+  }
+]

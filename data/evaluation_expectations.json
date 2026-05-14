@@ -1,0 +1,22 @@
+{
+  "frame_id": "warehouse_frame_001",
+  "expected_final_decision": "BLOCKED",
+  "objects": {
+    "Obj_101": {
+      "expected_status": "HAZARD",
+      "expected_zone": "Zone A"
+    },
+    "Obj_102": {
+      "expected_status": "SAFE",
+      "expected_zone": "Zone B"
+    },
+    "Obj_103": {
+      "expected_status": "SAFE",
+      "expected_zone": "Zone A"
+    },
+    "Obj_104": {
+      "expected_status": "IGNORE",
+      "expected_zone": "Zone A"
+    }
+  }
+}
