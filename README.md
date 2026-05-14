@@ -272,12 +272,12 @@ The production path for live data is:
 
 The occupancy engine does not depend on a specific detector. That separation is deliberate: model choice can change without rewriting the safety logic.
 
-## Why This Is Interview-Ready
+## Project Highlights
 
 - Clear separation of perception input, geometry, rules, reporting, and visualization.
 - Configurable safety constraints instead of hard-coded magic numbers.
 - Deterministic unit tests for the sample challenge outcome.
-- Browser dashboard suitable for a live interview demo.
+- Browser dashboard suitable for live review and operational demos.
 - Scenario runner for blocked, clear, and crowded cases.
 - Temporal monitoring to avoid flicker from noisy one-frame detections.
 - Occupancy grid risk map for robot-style spatial reasoning.
