@@ -87,7 +87,7 @@ Exact volume values can vary if camera calibration or class thickness factors ar
 |-- docs/
 |   |-- architecture.md
 |   |-- failure_modes_and_safety_case.md
-|   |-- interview_walkthrough.md
+|   |-- project_walkthrough.md
 |   |-- reviewer_guide.md
 |   |-- requirements_traceability.md
 |   `-- submission_brief.md
@@ -175,7 +175,7 @@ This architecture makes it easy to swap perception sources without changing the 
 
 ## Visual Demo Outputs
 
-The main interview-facing artifact is `reports/depth_guard_dashboard.html`. It includes:
+The main review artifact is `reports/depth_guard_dashboard.html`. It includes:
 
 - Executive decision cards: blocked or clear, hazard count, max risk, occupied volume.
 - 2D detection overlay with color-coded statuses.

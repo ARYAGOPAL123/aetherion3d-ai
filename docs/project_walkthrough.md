@@ -1,6 +1,6 @@
-# Depth-Guard Interview Walkthrough
+# Depth-Guard Project Walkthrough
 
-Use this as a concise demo script during the second-round discussion.
+Use this as a concise demo script for project review or technical discussion.
 
 ## 30-Second Summary
 

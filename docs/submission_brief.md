@@ -86,7 +86,7 @@ python -B -m unittest discover -s tests
 - Modular architecture: input parsing, geometry, occupancy rules, reporting, visualization, dashboard, and batch scenario evaluation are separated.
 - Configurable safety rules: critical distance, minimum object volume, camera field of view, zones, and class thickness factors are stored in JSON.
 - Explainable decisions: each object includes status, risk score, volume, clearance margin, zone, and reason.
-- Browser-ready output: interviewers can inspect the result visually without installing a web framework.
+- Browser-ready output: reviewers can inspect the result visually without installing a web framework.
 - Optional AI perception adapter: YOLO image/webcam input can feed the same occupancy engine.
 - Temporal safety debounce: avoids overreacting to one noisy frame.
 - Occupancy grid map: provides robot-style spatial reasoning output.

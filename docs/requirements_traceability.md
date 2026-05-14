@@ -51,7 +51,7 @@ The implemented sample produces the required decisions:
 
 ## Important Professional Note
 
-The core challenge path is intentionally deterministic and lightweight because the interviewer supplied simulated JSON data. The optional AI path is separated cleanly:
+The core challenge path is intentionally deterministic and lightweight because the supplied evaluation data is simulated JSON. The optional AI path is separated cleanly:
 
 - Required evaluation: run `python -B scripts/depth_guard_demo.py`.
 - Professional dashboard: run `python -B scripts/generate_submission_artifacts.py`.
